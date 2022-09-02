@@ -3,6 +3,7 @@ import { Section } from "./components/Section"
 import { Article } from "./components/Article"
 import "./global.css"
 import styles from "./App.module.css"
+import { Footer } from "./components/Footer"
 export function App() {
   return (
     <>
@@ -13,6 +14,9 @@ export function App() {
       </div>
       <div className={styles.wrapperArticle}>
         <Article />
+      </div>
+      <div className={styles.wrapperFooter}>
+        <Footer />
       </div>
     </>
   )
