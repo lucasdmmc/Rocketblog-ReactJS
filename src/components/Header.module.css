@@ -1,0 +1,49 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: var(--white);
+}
+
+.menu a:hover {
+  border-left: 3px solid var(--green);
+  font-weight: bold;
+}
+
+.inputAndButton {
+  display: flex;
+}
+
+.inputAndButton input {
+  height: 4.4rem;
+  padding: 0 2.6rem;
+  background: transparent;
+  outline: none;
+  border: none;
+  background: var(--dark-bg);
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+  color: var(--white);
+}
+
+.inputAndButton button {
+  width: 7rem;
+  height: 4.4rem;
+  background: none;
+  border: none;
+  background: var(--button-bg);
+  cursor: pointer;
+}

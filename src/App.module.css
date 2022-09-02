@@ -1,0 +1,14 @@
+.wrapper {
+  margin: 6.4rem 13.5rem 0;
+}
+
+.wrapperArticle {
+  width: 100%;
+  border-top: 4px solid #4FFF4B;;
+  background: #FBF7FF;
+  display: grid;
+  grid-template-columns: 569px 1fr;
+  align-items: flex-start;
+  gap: 13rem;
+  padding: 6rem 13.5rem 0;
+}

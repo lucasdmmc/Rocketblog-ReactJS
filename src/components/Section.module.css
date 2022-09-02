@@ -1,0 +1,54 @@
+.wrapper {
+  margin: 6.4rem auto;
+  display: grid;
+  grid-template-columns: 570px 1fr;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.sideLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.sideLeft h1 {
+  font-size: 3.8rem;
+  line-height: 5.4rem;
+  color: var(--button-bg);
+}
+
+.sideLeft p {
+  width: 500px;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--white);
+}
+
+.sideLeft a {
+  width: 11rem;
+  display: flex;
+  gap: 0.8rem;
+  margin-top: .8rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--button-bg);
+}
+
+.sideLeft a:hover {
+  color: purple;
+}
+
+.sideRight {
+  max-height: 414.55px;
+}
+
+.sideRight img {
+  width: 100%;
+  height: 34.6rem;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 8px;
+}
